@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../img/fundo1.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    
+
+}
+
+#calculator{
+    width: 450px;
+    padding: 1.4em;
+    border-radius: 32px;
+    background-color: #141313;
+    color: #2175a6;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 41px -5px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 41px -5px rgba(255,255,255,1);
+box-shadow: 0px 0px 41px -5px rgba(255,255,255,1);
+
+ 
+   
+}
+
+#topo-calc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#calculator h3{
+    font-size: 1.4em;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+    text-decoration: overline;
+    margin-bottom: 15px;
+    
+}
+
+img{
+    width: 7em;
+    height: 5em;
+    margin-bottom: 20px;
+}
+
+#operations {
+    text-align: right;
+    
+}
+
+#previous-operation {
+    color: #424242;
+    padding: 0.2em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+    background-color: #c7c5c5;
+
+    
+   
+
+}
+
+#current-operation{
+    min-height: 1.6em;
+    font-size: 3em;
+    font-weight: 700;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 0.2em;
+    overflow-wrap: break-word;
+    background-color: #d2d4d2;
+
+}
+
+#buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+#buttons-container button{
+    border: 1px solid transparent;
+    border-radius: 18px;
+    height: 4em;
+    margin-top: 10px;
+    font-size: 1.4em;
+    font-weight: 600;
+    background-color: #cae8ed;
+    cursor: pointer;
+  
+
+    
+}
+
+#buttons-conatiner .number{
+    background-color: #f3f3f3;
+    
+}
+
+#buttons-container button:hover{
+    background-color: #bababa;
+    border-color: #999;
+    
+    
+}
+
+#buttons-container #igual-btn{
+    grid-column: span 2;
+    background-color: #75a5cb;
+}
+
+#buttons-container #igual-btn:hover{
+    grid-column: span 2;
+    background-color: #3a91d8;
+}
+
+
+
+
+
